@@ -1,0 +1,182 @@
+{
+    "Survivors": [
+        {
+            "nombre": "Dwight Fairfield",
+            "lore": "Un trabajador de oficina que intenta mantener la calma y la esperanza mientras lucha por sobrevivir."
+        },
+        {
+            "nombre": "Meg Thomas",
+            "lore": "Una corredora ávida que se ha encontrado a sí misma en el lugar equivocado en el momento equivocado."
+        },
+        {
+            "nombre": "Claudette Morel",
+            "lore": "Una botánica introvertida y habilidosa que se encuentra usando sus habilidades para ocultarse y curar."
+        },
+        {
+            "nombre": "Jake Park",
+            "lore": "Un cazador experimentado que se enfrenta a un desafío completamente diferente en la lucha por su propia vida."
+        },
+        {
+            "nombre": "Nea Karlsson",
+            "lore": "Una artista de graffiti que ha visto demasiado de la oscuridad y está decidida a luchar contra ella."
+        },
+        {
+            "nombre": "Laurie Strode",
+            "lore": "Una sobreviviente determinada y resistente que ha luchado contra el mal más allá de cualquier imaginación."
+        },
+        {
+            "nombre": "Ace Visconti",
+            "lore": "Un jugador con suerte y astuto que lucha por encontrar su lugar en una situación que desafía toda lógica."
+        },
+        {
+            "nombre": "Feng Min",
+            "lore": "Una jugadora profesional que enfrenta la mayor competencia de su vida en un campo de juego mortal."
+        },
+        {
+            "nombre": "David King",
+            "lore": "Un luchador callejero que sabe lo que se necesita para sobrevivir en los callejones oscuros y peligrosos."
+        },
+        {
+            "nombre": "Kate Denson",
+            "lore": "Una cantante enérgica y con talento que busca su propio ritmo en una batalla que no es música para sus oídos."
+        },
+        {
+            "nombre": "Adam Francis",
+            "lore": "Un estudiante de derecho cuya educación le ha enseñado que la verdad y la justicia son raras en el mundo real."
+        },
+        {
+            "nombre": "Jeff Johansen",
+            "lore": "Un músico que ha visto el horror de primera mano y está dispuesto a luchar contra él, incluso cuando se enfrenta a lo imposible."
+        },
+        {
+            "nombre": "Jane Romero",
+            "lore": "Una estrella de cine que ha enfrentado miedos ficticios pero ahora enfrenta un terror real y mortal."
+        },
+        {
+            "nombre": "Ashley J. Williams",
+            "lore": "Un héroe de acción que ha enfrentado monstruos en la pantalla grande pero ahora lucha por su vida en una pesadilla real."
+        },
+        {
+            "nombre": "Nancy Wheeler",
+            "lore": "Una estudiante de secundaria que ha enfrentado la locura de primera mano y ahora lucha por la verdad en un mundo de mentiras."
+        },
+        {
+            "nombre": "Steve Harrington",
+            "lore": "Un héroe de aventuras que ha enfrentado lo inimaginable y ahora se encuentra luchando contra todo lo que creía saber."
+        },
+        {
+            "nombre": "Yun-Jin Lee",
+            "lore": "Una productora de televisión que ha visto lo peor de la humanidad y ahora lucha contra lo imposible."
+        },
+        {
+            "nombre": "Zarina Kassir",
+            "lore": "Una diseñadora gráfica que ha enfrentado el horror de primera mano y ahora se encuentra luchando contra el monstruo dentro de ella."
+        },
+        {
+            "nombre": "Cheryl Mason",
+            "lore": "Una heroína que ha enfrentado lo peor de lo peor y ahora se encuentra luchando contra un mal más allá de toda razón."
+        },
+        {
+            "nombre": "Felix Richter",
+            "lore": "Un empresario que ha enfrentado lo inimaginable y ahora se encuentra luchando contra lo imposible."
+        }
+    ],
+    "Killers": [
+        {
+            "nombre": "Trapper",
+            "lore": "Evan MacMillan, un hombre obsesionado con trampas y caza, heredero de una vasta fortuna."
+        },
+        {
+            "nombre": "Wraith",
+            "lore": "Philip Ojomo, un cuidador silencioso que trabajaba en un taller, transformado por un misterioso dispositivo."
+        },
+        {
+            "nombre": "Hillbilly",
+            "lore": "Max Thompson Jr., un joven con una inteligencia limitada, impulsado por la venganza tras una infancia brutal."
+        },
+        {
+            "nombre": "Nurse",
+            "lore": "Sally Smithson, una enfermera que cuidaba a su familia enferma antes de ser llevada al borde de la locura."
+        },
+        {
+            "nombre": "Shape (Michael Myers)",
+            "lore": "Michael Myers, un asesino en serie que regresa a su hogar en Haddonfield para cazar."
+        },
+        {
+            "nombre": "Hag",
+            "lore": "Lisa Sherwood, una joven bruja atormentada que busca venganza por su brutal asesinato."
+        },
+        {
+            "nombre": "Doctor",
+            "lore": "Herman Carter, un psiquiatra despiadado que usa métodos extremos para 'curar' a sus pacientes."
+        },
+        {
+            "nombre": "Huntress",
+            "lore": "Anna, una mujer criada en el bosque por una figura materna salvaje y asesina."
+        },
+        {
+            "nombre": "Cannibal (Leatherface)",
+            "lore": "Bubba Sawyer, parte de una familia caníbal aislada que caza en Texas."
+        },
+        {
+            "nombre": "Nightmare (Freddy Krueger)",
+            "lore": "Frederick Charles Krueger, un monstruo que acecha en los sueños de sus víctimas."
+        },
+        {
+            "nombre": "Pig (Amanda Young)",
+            "lore": "Amanda Young, una víctima del juego de Jigsaw que busca redención a través del sufrimiento de otros."
+        },
+        {
+            "nombre": "Clown",
+            "lore": "Kenneth Chase, un payaso de circo trastornado por la adicción a las drogas y la pérdida de su carrera."
+        },
+        {
+            "nombre": "Spirit",
+            "lore": "Rin Yamaoka, una joven atormentada que desata su ira espiritual sobre aquellos que la lastimaron."
+        },
+        {
+            "nombre": "Legion",
+            "lore": "Un grupo de adolescentes desilusionados y violentos, compartiendo la identidad de 'Legion'."
+        },
+        {
+            "nombre": "Plague",
+            "lore": "Adiris, una sacerdotisa que trae pestilencia y enfermedad como castigo divino."
+        },
+        {
+            "nombre": "Ghost Face",
+            "lore": "Danny Johnson y/o Jed Olsen, asesinos aficionados inspirados por películas de terror."
+        },
+        {
+            "nombre": "Demogorgon",
+            "lore": "Una criatura depredadora del Otro Lado, inspirada por el universo de Stranger Things."
+        },
+        {
+            "nombre": "Oni",
+            "lore": "Kazan Yamaoka, un guerrero samurái poseído por la furia demoníaca de su ancestro."
+        },
+        {
+            "nombre": "Deathslinger",
+            "lore": "Caleb Quinn, un cazador de recompensas obsesionado con la justicia y la venganza."
+        },
+        {
+            "nombre": "Executioner (Pyramid Head)",
+            "lore": "Pyramid Head, una entidad que personifica el castigo y el sufrimiento."
+        },
+        {
+            "nombre": "Blight",
+            "lore": "Talbot Grimes, un alquimista desesperado que busca curar su propia enfermedad a través de experimentos."
+        },
+        {
+            "nombre": "Twins",
+            "lore": "Charlotte y Victor Deshayes, gemelos nacidos en circunstancias misteriosas, unidos en la muerte."
+        },
+        {
+            "nombre": "Trickster",
+            "lore": "Ji-Woon Hak, un ídolo pop coreano que se convierte en un asesino despiadado tras perder su fama."
+        },
+        {
+            "nombre": "Nemesis",
+            "lore": "Experimento biológico creado por Umbrella Corporation, adaptado para cazar y eliminar."
+        }
+    ]
+}

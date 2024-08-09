@@ -1,0 +1,39 @@
+main {
+    background-image: url(../assets/cheryl.jpg);
+
+
+    .titulo {
+        text-transform: uppercase;
+        font-family: $fuente;
+    }
+
+    img {
+        width: 400px;
+        height: 400px;
+        margin: auto;
+    }
+
+    .siguientePestaña {
+        text-align: center;
+        text-decoration: none;
+        color: $color;
+        padding: 10px;
+
+        a,
+        .texto {
+            font-size: 25px;
+            color: $color;
+            text-decoration: none;
+            font-family: $fuente2;
+        }
+
+        &:hover,
+        i:hover {
+            color: rgb(255, 180, 180);
+        }
+    }
+
+    .lista {
+        text-align: left;
+    }
+}

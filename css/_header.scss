@@ -1,0 +1,100 @@
+header {
+    div {
+        h1 {
+            position: absolute;
+            top: 20%;
+            font-size: 500%;
+            text-align: center;
+            width: 100%;
+            font-family: $fuente, Roboto;
+        }
+
+        img {
+            width: 100%;
+            height: 500px;
+            background-size: cover;
+        }
+
+        a,
+        h3 {
+            text-decoration: none;
+            text-align: center;
+            font-family: Roboto;
+            text-transform: uppercase;
+        }
+
+    }
+
+    section {
+        margin-top: -5px;
+        padding-top: 3%;
+
+        ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            text-align: center;
+
+            li {
+                display: inline-block;
+                margin: center;
+
+                a {
+                    text-decoration: none;
+                }
+
+                img {
+                    width: 150px;
+                    height: 150px;
+                }
+            }
+        }
+    }
+
+    nav {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+
+        a,
+        .btn {
+            color: $color;
+            font-size: 25px;
+            font-weight: bold;
+            text-align: center;
+            font-family: $fuente2;
+            text-transform: uppercase;
+            border: none;
+            padding: 0;
+
+            text-shadow: rgb(31, 0, 0) -10px 5px;
+
+            &:hover {
+                background-color: black;
+                color: red;
+                text-shadow: rgb(77, 0, 0) -10px 5px;
+            }
+            &::after{
+                content: none;
+            }
+        }
+    }
+}
+
+.dropdown ul {
+    background-color: black;
+    height: 50px;
+    & li a{
+        color: $color;
+    background-color: black;
+    &:hover{
+        background-color: black;
+        color: red;
+        text-shadow: rgb(77, 0, 0) -10px 5px;
+    }
+    }
+}
+
+

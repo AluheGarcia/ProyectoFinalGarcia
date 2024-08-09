@@ -1,0 +1,33 @@
+footer {
+    background-image: linear-gradient(rgb(22, 22, 22), black);
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    color: $backcolor;
+
+    div {
+
+        li,
+        a,
+        h3 {
+            text-decoration: none;
+            list-style: none;
+            padding-bottom: 10px;
+            font-family: $fuente2;
+        }
+
+        a i {
+            font-size: 75px;
+            color: $backcolor;
+        }
+    }
+
+    h3,
+    a {
+        color: $backcolor;
+    }
+}
+.footer{
+    width: 90%;
+    margin: auto;
+}

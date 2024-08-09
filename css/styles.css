@@ -1,0 +1,320 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Freeman&display=swap");
+header div h1 {
+  position: absolute;
+  top: 20%;
+  font-size: 500%;
+  text-align: center;
+  width: 100%;
+  font-family: "Bebas Neue", Roboto;
+}
+header div img {
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+}
+header div a,
+header div h3 {
+  text-decoration: none;
+  text-align: center;
+  font-family: Roboto;
+  text-transform: uppercase;
+}
+header section {
+  margin-top: -5px;
+  padding-top: 3%;
+}
+header section ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+header section ul li {
+  display: inline-block;
+  margin: center;
+}
+header section ul li a {
+  text-decoration: none;
+}
+header section ul li img {
+  width: 150px;
+  height: 150px;
+}
+header nav {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+header nav a,
+header nav .btn {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "roboto";
+  text-transform: uppercase;
+  border: none;
+  padding: 0;
+  text-shadow: rgb(31, 0, 0) -10px 5px;
+}
+header nav a:hover,
+header nav .btn:hover {
+  background-color: black;
+  color: red;
+  text-shadow: rgb(77, 0, 0) -10px 5px;
+}
+header nav a::after,
+header nav .btn::after {
+  content: none;
+}
+
+.dropdown ul {
+  background-color: black;
+  height: 50px;
+}
+.dropdown ul li a {
+  color: white;
+  background-color: black;
+}
+.dropdown ul li a:hover {
+  background-color: black;
+  color: red;
+  text-shadow: rgb(77, 0, 0) -10px 5px;
+}
+
+main {
+  background-image: url(../assets/cheryl.jpg);
+}
+main .titulo {
+  text-transform: uppercase;
+  font-family: "Bebas Neue";
+}
+main img {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+}
+main .siguientePestaña {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+main .siguientePestaña a,
+main .siguientePestaña .texto {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  font-family: "roboto";
+}
+main .siguientePestaña:hover,
+main .siguientePestaña i:hover {
+  color: rgb(255, 180, 180);
+}
+main .lista {
+  text-align: left;
+}
+
+footer {
+  background-image: linear-gradient(rgb(22, 22, 22), black);
+  text-align: center;
+  font-size: 20px;
+  padding-top: 10px;
+  color: #666;
+}
+footer div li,
+footer div a,
+footer div h3 {
+  text-decoration: none;
+  list-style: none;
+  padding-bottom: 10px;
+  font-family: "roboto";
+}
+footer div a i {
+  font-size: 75px;
+  color: #666;
+}
+footer h3,
+footer a {
+  color: #666;
+}
+
+.footer {
+  width: 90%;
+  margin: auto;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  font-family: "roboto";
+  color: white;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+}
+
+h2 {
+  font-size: 55px;
+}
+
+h4 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 20px;
+  margin: auto;
+  text-align: center;
+}
+
+section p,
+section h2,
+section h4 {
+  padding: 20px;
+  text-align: center;
+}
+
+.quienesSomos {
+  width: 70%;
+  margin: auto;
+}
+
+.video {
+  text-align: center;
+}
+.video iframe {
+  width: 700px;
+}
+
+.imagenesConTexto div img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+}
+
+.miniaturas {
+  width: 250px;
+  height: 250px;
+  display: flex;
+}
+
+.list-container {
+  padding-top: 50px;
+}
+
+.nombreSurvivor,
+.nombreKiller {
+  text-align: center;
+  list-style: none;
+  font-size: 20px;
+}
+
+#asesino li,
+#superviviente li {
+  list-style-type: none;
+}
+#asesino li h3,
+#superviviente li h3 {
+  text-align: center;
+}
+
+#Builds {
+  text-align: center;
+}
+#Builds button {
+  width: 250px;
+  height: 250px;
+  font-size: 50px;
+  margin: 0 auto;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+form {
+  text-align: center;
+  background-color: rgb(22, 22, 22);
+  width: 100%;
+  padding: 20px;
+  font-size: 30px;
+  padding-top: 25px;
+}
+form input::placeholder,
+form select,
+form .placeholder,
+form select option {
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  background-color: #666;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 10px;
+  font-family: "Bebas Neue";
+}
+
+h3,
+label {
+  font-family: "roboto";
+}
+
+.formulario, .formularioMenor {
+  width: 80%;
+  margin: auto;
+}
+
+.centrarDiv {
+  width: 75%;
+  margin: auto;
+}
+
+.efecto {
+  animation-name: efecto;
+  animation-iteration-count: infinite;
+  animation-duration: 7s;
+  text-shadow: #000000 5px 0;
+  font-size: 100px;
+}
+
+@keyframes efecto {
+  0% {
+    color: #fbff00;
+  }
+  25% {
+    color: #15ff00;
+  }
+  75% {
+    color: #ab00b1;
+  }
+  90% {
+    color: orange;
+  }
+  100% {
+    color: #fbff00;
+  }
+}
+.lista1 {
+  color: #e6e6e6;
+}
+
+.lista2 {
+  color: #cccccc;
+}
+
+.lista3 {
+  color: #b3b3b3;
+}
+
+.lista4 {
+  color: #999999;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Freeman&display=swap');
+$fuente : "Bebas Neue";
+$fuente2: "roboto";
+$color: white;
+$backcolor: #666;
+$color2: #fbff00;
+$color3: #15ff00;
+$color4: #ab00b1;
+$color5: orange;
+
+@import 'header';
+@import 'main';
+@import 'footer';
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    font-family: $fuente2;
+    color: $color;
+    margin: 0;
+}
+
+
+body {
+    background-color: black;
+}
+
+h2 {
+    font-size: 55px;
+}
+
+h4 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+section {
+
+    p,
+    h2,
+    h4 {
+        padding: 20px;
+        text-align: center;
+    }
+}
+
+.quienesSomos {
+    width: 70%;
+    margin: auto;
+}
+
+.video {
+    text-align: center;
+
+    iframe {
+        width: 700px;
+    }
+}
+
+.imagenesConTexto {
+    div {
+        img {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 250px;
+            height: 250px;
+        }
+    }
+}
+
+.miniaturas {
+    width: 250px;
+    height: 250px;
+    display: flex;
+}
+
+.list-container {
+    padding-top: 50px;
+}
+
+.nombreSurvivor,
+.nombreKiller {
+    text-align: center;
+    list-style: none;
+    font-size: 20px;
+
+}
+
+#asesino li,
+#superviviente li {
+    list-style-type: none;
+
+    h3 {
+        text-align: center;
+    }
+}
+
+#Builds {
+    text-align: center; 
+    
+    button {
+        width: 250px;
+        height: 250px;
+        font-size: 50px;
+        margin: 0 auto;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    
+}
+
+
+form {
+    text-align: center;
+    background-color: rgb(22, 22, 22);
+    width: 100%;
+    padding: 20px;
+    font-size: 30px;
+    padding-top: 25px;
+
+    input::placeholder,
+    select,
+    .placeholder,
+    select option {
+        border-radius: 10px;
+        width: 200px;
+        height: 50px;
+        background-color: $backcolor;
+        color: $color;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 10px;
+        font-family: $fuente;
+    }
+}
+
+h3,
+label {
+    font-family: $fuente2;
+}
+
+@mixin formulario {
+    width: 80%;
+    margin: auto;
+}
+
+.formulario {
+    @include formulario()
+}
+
+.formularioMenor {
+    @extend .formulario
+}
+
+.centrarDiv {
+    width: 75%;
+    margin: auto;
+}
+
+
+
+.efecto {
+    animation-name: efecto;
+    animation-iteration-count: infinite;
+    animation-duration: 7s;
+    text-shadow: #000000 5px 0;
+    font-size: 100px;
+}
+
+
+@keyframes efecto {
+    0% {
+        color: $color2;
+    }
+
+    25% {
+        color: $color3;
+    }
+
+    75% {
+        color: $color4;
+    }
+
+    90% {
+        color: $color5;
+    }
+
+    100% {
+        color: $color2;
+    }
+}
+
+
+
+@for $tituloI from 1 through 4 {
+    .lista#{$tituloI} {
+        color: darken($color, $tituloI * 10%);
+    }
+}
